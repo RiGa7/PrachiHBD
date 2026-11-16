@@ -43,7 +43,7 @@ export const App: React.FC = () => {
             className="inline-flex items-center gap-1.5 px-3.5 py-1 bg-white text-teal-800 border border-teal-200 rounded-full text-xs font-bold shadow-2xs"
           >
             <Sparkles className="w-3.5 h-3.5 text-teal-600" />
-            From {BIRTHDAY_CONFIG.myRealName} ({BIRTHDAY_CONFIG.myPetName}) to {BIRTHDAY_CONFIG.sisterRealName} • Born in 2010
+            From Nikki Didi to {BIRTHDAY_CONFIG.sisterRealName} • Born in 2010
           </motion.div>
 
           <motion.div
@@ -68,7 +68,7 @@ export const App: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="text-xs sm:text-sm text-stone-600 max-w-xs mx-auto leading-relaxed"
           >
-            A digital birthday scrapbook made by your sister {BIRTHDAY_CONFIG.myPetName} ({BIRTHDAY_CONFIG.myRealName}), dedicated to the girl who gets annoyed by everything, hides in the hall, and runs away from my camera. 🎀
+            A digital birthday scrapbook made by your Nikki Didi, dedicated to the girl who gets annoyed by everything, hides in the hall, and runs away from my camera. 🎀
           </motion.p>
         </section>
 

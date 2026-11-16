@@ -163,9 +163,9 @@ export const AnnoyingPranks: React.FC = () => {
           })}
         </div>
 
-        {totalChecked >= 3 && (
+        {totalChecked >= 2 && (
           <p className="text-xs text-center font-semibold text-amber-900 bg-amber-50 p-2.5 rounded-2xl border border-amber-200">
-            Confirmed: {totalChecked} of 6! Still Nikki's favorite little sister. 🌸
+            Confirmed: {totalChecked} of {BIRTHDAY_CONFIG.annoyanceTriggers.length}! Still Nikki Didi's favorite little sister. 🌸
           </p>
         )}
       </div>
