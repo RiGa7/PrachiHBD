@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    touch-action: manipulation;
+    background-color: #faf8f5;
+    color: #44403c;
+  }
+}
+
+.font-serif-title {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Realistic semi-translucent washi tape strips */
+.real-washi-tape {
+  width: 70px;
+  height: 22px;
+  backdrop-filter: blur(1px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), inset 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+/* Washi tape pastel color variants */
+.tape-teal {
+  background: rgba(153, 246, 228, 0.72);
+}
+.tape-yellow {
+  background: rgba(254, 240, 138, 0.75);
+}
+.tape-coral {
+  background: rgba(254, 215, 170, 0.75);
+}
+.tape-pink {
+  background: rgba(254, 205, 211, 0.75);
+}
+.tape-lavender {
+  background: rgba(233, 213, 255, 0.72);
+}
+.tape-mint {
+  background: rgba(187, 247, 208, 0.75);
+}

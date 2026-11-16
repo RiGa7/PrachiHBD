@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="550" viewBox="0 0 600 550">
+  <defs>
+    <linearGradient id="pastelMint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4" />
+      <stop offset="100%" stop-color="#dcfce7" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="550" fill="url(#pastelMint)" rx="24"/>
+  <circle cx="300" cy="220" r="95" fill="#ffffff" opacity="0.9" />
+  <text x="300" y="240" font-size="70" text-anchor="middle">✨</text>
+  <text x="300" y="370" font-family="'Playfair Display', serif" font-size="28" font-weight="bold" fill="#14532d" text-anchor="middle">Photo Slot #4</text>
+  <text x="300" y="408" font-family="'Quicksand', sans-serif" font-size="20" fill="#166534" text-anchor="middle">Drop photo4.jpg into public/photos/</text>
+  <text x="300" y="440" font-family="'Quicksand', sans-serif" font-size="16" fill="#15803d" opacity="0.8" text-anchor="middle">"Paparazzi caught her before she could hide"</text>
+</svg>
